@@ -1,0 +1,317 @@
+/* Colors:
+    Primary Teal: #66FCF1
+    Dark Teal: #45A29E
+    Gray: #C5C6C7
+    Dark Blue Gray: #1F2833
+    Almonst Black: #0B0C10
+    */
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  overflow-y: scroll;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.menuButton {
+  order: -1;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.menuButton:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+
+.altButton {
+  order: -1;
+  background-color: #0b0c10;
+  color: teal;
+  font-size: small;
+  font-weight: bold;
+  border: 2px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.altButton:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+
+.Navbox {
+  position: absolute;
+  top: 85px;
+  left: -40px;
+  background-color: teal;
+  padding: 15px;
+  padding-right: -15px;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+
+.link:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  text-decoration: underline;
+}
+
+.MainTitle {
+  flex-grow: 1;
+  align-self: center;
+  margin-left: 16.5%;
+  color: teal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.userImage {
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  width: 'auto';
+  height: 'auto';
+}
+.userImage:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.userName {
+  font-size: 18px;
+}
+
+.signOut {
+  background-color: teal;
+  margin: 10px;
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signOut:hover {
+  transform: scale(1.1);
+}
+
+.Content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.exerciseName {
+  font-weight: bold;
+}
+
+.userImage {
+  border-radius: 50%;
+}
+
+.Data {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+}
+
+.containerCustom {
+  flex-direction: column;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.containerAddCustom {
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.monthButton {
+  background-color: teal;
+  margin: 15px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.monthButton:hover {
+  transform: scale(1.1);
+}
+
+.currentMonth {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.calendar {
+  height: 100%;
+}
+
+.calendarHeader {
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
+
+.calendarDays {
+  background-color: #1f2833;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calendarDays.selectedDay {
+  background-color: teal;
+}
+
+.calendar th,
+.calendar td {
+  text-align: center;
+  padding: 40px;
+}
+
+ul {
+  color: white;
+  list-style: square;
+  list-style-position: inside;
+  display: inline-block;
+  padding: 10px;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.data {
+  padding-bottom: 500px;
+  background-color: #0b0c10;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.mainheadings {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input {
+  color: #c5c6c7;
+  font-size: 15px;
+  background-color: #0b0c10; /* Background color */
+  border: 1px solid teal; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 6px; /* Spacing inside the input */
+}
+
+.select {
+  padding: 15px; /* Spacing inside list items */
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 15px;
+  background-color: teal;
+  color: white;
+  border: 0px;
+  transition: 0.3s ease; /* Add a smooth transition effect to height */
+}
+
+.select:hover {
+  cursor: pointer;
+  max-height: 500px; /* Set the maximum height of the list when hovered */
+}
+
+.listheading {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.plus {
+  background-color: teal;
+  margin: 15px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+.plus:hover {
+  transform: scale(1.1);
+}
+
+.signoutText {
+  color: #c5c6c7;
+  margin: 10px;
+  font-size: larger;
+}
+
+.loading {
+  padding-top: 10%;
+  padding-left: 40%;
+}
