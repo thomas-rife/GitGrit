@@ -2,13 +2,6 @@
 
 ## Link to publicly deployed app: https://bottom-right.web.app
 
-## Team Members and Roles:
-
-- Thomas: Mainly worked on calendar components and CSS
-- Walter: Mainly worked on Navigation and CSS
-- Brian: Worked on the routines as well as the database and exercises.
-- August: Added custom workouts and integrared workout API with database
-
 ## User Audience and Needs
 
 The audience we chose to address is people who exercise. People who exercise are a community who need a way to track their progress because they value self-improvement. We tried to make our app as broad as possible because we understand there are many different ways to exercise. From exercise suggestions of Seated Head Harness Neck Resistance to roller skating to Power Snatches, users should be able to find and record new workouts. If the user cannot find their specific workout, they can always make their own, with the ability to toggle between time, weight, distance, etc. Our app tried to address the needs of users to find new workouts but also for users to be able to conveniently record their workout as quickly as possible. This is why we made routines, where users can build their own or choose from public routines, to easily add exercises to their day.
